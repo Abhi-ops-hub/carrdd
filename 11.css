@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+width:100vw;
+height:100vh;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(166,63,63,1) 44%, rgba(239,249,251,1) 93%);
+display:flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+.card{
+    width:400px;
+    height: 620px;
+    background-color: white;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: center; */
+     
+}
+
+.card img{
+    height:40%;
+    width: 100%;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+}
+
+.card h2{
+
+    justify-content: center;
+
+
+}
+
+.pay{
+    height:10%;
+    width: 80%;
+    display:flex;
+    /* border:1px solid black; */
+    align-items: center;
+     background-color:rgba(89, 89, 163, 0.503);
+    border-radius:20px;
+    justify-content: space-around;
+
+
+}
+
+#payment{
+    width:80%;
+    height:9%;
+    color:white;
+    background-color: rgb(0, 0, 81);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 20px;
+transition: all 2s 0s linear;
+
+}
+
+#cancelbutton a{
+    text-decoration: none;
+    color: black;
+    height:5%
+}
+
+.leftbox{
+    display:flex;
+    /* justify-content: left; */
+    justify-content:  space-around;
+    align-items: center;
+    width:30%;
+    height:70%;
+    /* border:1px solid black; */
+
+
+}
+.rightbox a{
+    text-decoration: none;
+    /* font-size: 2rem; */
+    transition: all 2s os linear;
+    color:  black;
+    
+}
+
+.imgt img{
+    height:60%;
+    width:60%;
+}
+
+.rightbox a:hover{
+     color:  white;
+}
+
+#payment:hover{
+    transform:scale(1.1,1.1) ;
+}
+
+#cancelbutton a:hover{
+    color:red
+}
